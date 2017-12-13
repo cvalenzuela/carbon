@@ -18,6 +18,12 @@ Every client that connects to the supplied URL will have the same files dropped 
 
 ![inter](assets/inter.gif)
 
+You can use Carbon with any text editor. Updates will be sent to clients whenever files changes are detected. For character level updates you can use different settings depending on the editor of your choice:
+
+- VSCode: Enable the [Auto Save](https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save) functionality for millisecond saves with `files.autoSave: afterDelay`.
+- Atom: Install the [auto-save on Change](https://atom.io/packages/autosave-onchange) plugin and set the amount of time to auto-save.
+- Sublime: Install the [auto-save](https://packagecontrol.io/packages/auto-save) plugin that saves the current file after every modification.
+
 ## Client
 
 Every connected user receives a page with a socket connection to the server. This pages allows for save options and theme personalization.
