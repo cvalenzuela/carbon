@@ -16,7 +16,7 @@ Download the latest release [here](). Open the app, drop files into the main win
 
 Every client that connects to the supplied URL will have the same files dropped in the app and they will update live using sockets.
 
-![interactive2](assets/interactive.gif)
+![interactive](assets/interactive2.gif)
 
 ## Client
 
