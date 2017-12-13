@@ -11,7 +11,6 @@ import Tabs from './Tabs';
 import User from './User';
 import Footer from './Footer';
 import Settings from './Settings';
-
 import './styles/App.css';
 
 class App extends Component {

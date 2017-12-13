@@ -22,6 +22,7 @@ const io = socket(server);
 const watcher = new Watcher();
 const socketManager = new SocketManager();
 
+// Create path if it does not exist yet
 if (!fs.existsSync(PUBLIC_PATH)) {
   fs.mkdir(PUBLIC_PATH);
 }

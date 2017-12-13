@@ -3,7 +3,6 @@
 
 import React, { Component } from 'react';
 import fileDownload from 'react-file-download';
-
 import './styles/Footer.css';
 
 class Footer extends Component {
