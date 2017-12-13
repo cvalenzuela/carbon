@@ -1,0 +1,17 @@
+.Files{
+  background: #1e2227;
+  width: 90%;
+  height: 70vh;
+  color: white;
+  text-align: center;
+  margin: 0.7em auto;
+  box-shadow: 2px 2px 12px #252525;
+}
+
+.Instructions{
+  padding: 31.5vh 0px;
+  color: #344154;
+  font-size: 2em;
+  user-select: none;
+  cursor: default;
+}

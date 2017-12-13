@@ -1,0 +1,151 @@
+/*
+Toolbar Styles
+*/
+
+.Toolbar{
+  position: relative;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background: #282828;
+  color:white;
+  height: 65px;
+  z-index: 2;
+}
+
+.PlayBtn{
+  margin: 1rem;
+  color: #ffffff;
+  font-size: 2rem;
+  border: 2px solid #e2e2e2;
+  border-radius: 50%;
+  transition: all .2s ease-in-out;
+}
+
+.PlayBtn:hover{
+  transform: scale(1.05);
+  border: 2px solid #ffffff;
+}
+
+.ribbon{
+  position: relative;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  transition: all .6s ease-in-out;
+  z-index: 1;
+  outline: none;
+}
+
+
+.ribbon > div {
+  padding: 10px;
+  background: #181818;
+  display: inline-block;
+  color: #e2e2e2;
+  font-size: 12px;
+  box-shadow: 1px 1px 1px #000000;
+  transform: scale(1);
+}
+
+.ribbon > div > span {
+  color: #e2e2e2;
+  outline: none;
+}
+
+.ribbon > div > span:focus {
+  outline: none;
+}
+
+.ribbon > div:hover {
+  transform: scale(1.01);
+  color: #e2e2e2;
+}
+
+.clientConnected{
+  color: #bbbbbb;
+  background: #282828;
+  font-size: 12px;
+  display: inline-block;
+  float: right;
+  margin: 2.2em 2.2em;
+  text-align: right;
+  position: relative;
+  z-index: 4;
+  transform: scale(1);
+}
+
+.clientConnected:hover{
+  transform: scale(1.01);
+}
+
+.clientConnected:focus {
+  outline:0px;
+}
+
+.logHidder{
+  position: absolute;
+  font-size: 11px;
+  color: #282828;
+  z-index: 4;
+  display: inline-block;
+  background: #282828;
+  text-align: center;
+  left: 50%;
+  top: 1.2em;
+  margin: 2px 0px;
+  padding: 0px 10px;
+  transform: translateX(-50%);
+}
+
+.logs{
+  transition: all .6s ease-in-out;
+  position: absolute;
+  font-size: 11px;
+  color: #b9b9b9;
+  border-bottom: 2px solid #186926;
+  z-index: 3;
+  display: inline-block;
+  text-align: center;
+  left: 50%;
+  top: 1em;
+  margin: 2px 0px;
+  transform: translateX(-50%);
+}
+
+.DropdownClients{
+  box-shadow: 2px 2px 2px #000000;
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  right: 2.2em;
+  top: 3.6em;
+  background: #3c3b3b;
+  z-index: 7;
+  color: #afafaf;
+}
+
+.Client{
+  text-align: right;
+  padding: 0.3em 0.3em;
+}
+
+.Client:hover{
+  background: #232c39;
+}
+
+.MakePublic{
+  transition: all .4s ease-in-out;
+  font-size: 1.4em;
+  color: #8a8a8a;
+}
+
+.MakePublic:hover{
+  transform: scale(1.1);
+  color: #029861;
+}
+
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
+  }
+}

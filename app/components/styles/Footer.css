@@ -1,0 +1,43 @@
+.Footer{
+  background: #272727;
+  margin: 0px;
+  padding: 2px 0px 0.4em 0px;
+  position: absolute;
+  display: inline;
+  bottom: 0px;
+  width: 100%;
+  transition: all .3s ease-in-out;
+  box-shadow: 1px -1px 1px #151515;
+}
+
+.Wifi{
+  float: right;
+  margin: 0px 1em 0px 0px;
+}
+
+.WifiIcon{
+  color: #797979;
+  margin: 0px 7px;
+  transform: scale(1);
+}
+
+.WifiIcon:hover{
+  transform: scale(1.1);
+}
+
+.WifiName{
+  color: #797979;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.WifiName>span{
+  border-bottom: 1px solid #797979;
+}
+
+.AmountOfFiles{
+  display: inline-block;
+  font-size: 12px;
+  color: #797979;
+  margin: 0px 0px 0px 1.3em;
+}

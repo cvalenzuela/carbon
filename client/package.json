@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "greeting": "1.0.6",
+    "immutability-helper": "2.6.0",
+    "prop-types": "15.6.0",
+    "react": "^16.0.0",
+    "react-contenteditable": "2.0.5",
+    "react-dom": "^16.0.0",
+    "react-file-download": "0.3.5",
+    "react-scripts": "1.0.14",
+    "react-syntax-highlighter": "5.7.0",
+    "socket.io": "2.0.3",
+    "superheroes": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm -rf ../app/server/public && cp -R build ../app/server/ && mv ../app/server/build ../app/server/public",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

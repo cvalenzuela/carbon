@@ -1,0 +1,49 @@
+/*
+Global CSS
+*/
+
+@import "~font-awesome/css/font-awesome.css";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  -webkit-font-smoothing: antialiased;
+  cursor: default;
+}
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background-color: #232c39;
+  font-family: Helvetica Neue, Helvetica ,Arial, serif;
+  overflow-y: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  color: #fff;
+}
+
+p {
+  font-size: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}

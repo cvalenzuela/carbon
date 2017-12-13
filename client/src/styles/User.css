@@ -1,0 +1,13 @@
+#name{
+  font-family: 'Helvetica', Arial, sans-serif;
+  text-align: right;
+  font-weight: lighter;
+  font-size: 12px;
+  display: inherit;
+  margin: 0px 0px 12px 0px;
+}
+
+#username{
+  display: inline-block;
+  border-bottom: 2px solid #22ad6d;
+}

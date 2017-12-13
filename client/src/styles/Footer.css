@@ -1,0 +1,19 @@
+#footer{
+  position: fixed;
+  bottom: 2em;
+  right: 2.5em;
+}
+
+#saveBtn{
+  font-family: 'Helvetica', Arial, sans-serif;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  background: #24272f;
+  transition: all .3s ease-in-out;
+  box-shadow: 1px 1px 1px 1px #000000;
+}
+
+#saveBtn:hover {
+  background: #323338;
+}

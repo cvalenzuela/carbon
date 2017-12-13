@@ -1,0 +1,53 @@
+.Element{
+  padding: 1em;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.File{
+  height: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+
+.FileIcon{
+  font-size: 3.2em;
+  color: #909090;
+}
+
+.FileIcon:hover{
+  color: #bdbcbc;
+}
+
+.SvgHolder{
+  text-align: left;
+}
+
+.CloseIcon{
+  fill: #bbbbbb;
+  transform: scale(1);
+  font-size: 1.2rem;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+
+.CloseIcon:hover{
+  transform: scale(1.2);
+  fill: rgb(169, 23, 23);
+}
+
+.FolderIcon{
+  position: absolute;
+  bottom: 34px;
+  color: #c1bfbf;
+}
+
+.FilePath{
+  position: absolute;
+  background: #232c39;
+  font-size: 12px;
+  top: 80%;
+}

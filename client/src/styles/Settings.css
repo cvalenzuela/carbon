@@ -1,0 +1,45 @@
+#dropdown {
+  font-size: 12px;
+  font-family: 'Helvetica', Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
+  background: #4e4e4e;
+  padding: 5px;
+  position: absolute;
+  top: 85px;
+  right: 30px;
+  padding: 0px;
+  box-shadow: 3px 3px 3px #000000;
+}
+
+#dropdown div {
+  cursor: pointer;
+  padding: 5px 5px;
+  background: #444750;
+}
+
+#dropdown div:hover {
+  transform: scale(1.02);
+  background: #595a5d;
+}
+
+#settings {
+  float: right;
+  text-align: right;
+}
+
+#settingsBtn {
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    font-weight: 500;
+    background: white;
+    color: #24272e;
+    padding: 3px;
+    user-select: none;
+}
+
+#dropDownStyles {
+  display: inline-block;
+}
