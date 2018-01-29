@@ -12,7 +12,7 @@ Carbon is available for macOS, Linux and Windows (untested).
 
 ## Usage
 
-Download the latest release [here](https://drive.google.com/drive/folders/1LAX4kxcX3NA5iSuRRB6RgwX4M0kMEpEt?usp=sharing). Open the app, drop files into the main window and click the start button. This will enable a server over the local network. Clients on the same network can connect with the supplied URL. If your firewall blocks your server or you have issues inside the network, you can enable *world mode* by clicking in the globe icon, that will create a new URL that's available to anyone. Use with caution!
+Download the latest release [here](https://drive.google.com/file/d/1mydUTF0bqs2S155aWQdwKrU1HqjHA7AD/view). Open the app, drop files into the main window and click the start button. This will enable a server over the local network. Clients on the same network can connect with the supplied URL. If your firewall blocks your server or you have issues inside the network, you can enable *world mode* by clicking in the globe icon, that will create a new URL that's available to anyone. Use with caution!
 
 Every client that connects to the supplied URL will have the same files dropped in the app and they will update live using sockets.
 
