@@ -5,14 +5,15 @@ Toolbar View Component
 
 import React, { Component } from 'react';
 import { ipcRenderer, shell } from 'electron';
-import ngrok from 'ngrok';
 import log from 'electron-log';
 
+import ngrok from 'ngrok';
 import Play from 'react-icons/lib/md/play-arrow';
 import Stop from 'react-icons/lib/md/stop';
 import GoGlobe from 'react-icons/lib/go/globe';
 
 import styles from './styles/Toolbar.css';
+
 
 class Toolbar extends Component {
   props: {

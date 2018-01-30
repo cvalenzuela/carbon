@@ -65,6 +65,7 @@ app.on('ready', async () => {
     height: 600,
     title: 'Carbon',
   });
+  // mainWindow.webContents.openDevTools();
 
   mainWindow.loadURL(`file://${__dirname}/app.html`);
 
